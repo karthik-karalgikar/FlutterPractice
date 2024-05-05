@@ -9,11 +9,17 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('Weather App'),
+          title: Text('lalalal'),
           centerTitle: true,
           backgroundColor: Colors.blue
       ),
-      body: Center(
+      body: Container(
+        // padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+        // padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.fromLTRB(10.0, 100.0, 10.0, 10.0),
+        margin: EdgeInsets.all(150.0),
+        color: Colors.grey[400],
+        child: Text('hello'),
         //text
 
         // child: Text(
@@ -43,13 +49,13 @@ class Home extends StatelessWidget {
         // ),
 
         //Icon as a button
-        child: IconButton(
-          onPressed: () {},
-          icon: Icon(
-            Icons.email
-          ),
-          color: Colors.amber,
-        ),
+        // child: IconButton(
+        //   onPressed: () {},
+        //   icon: Icon(
+        //     Icons.email
+        //   ),
+        //   color: Colors.amber,
+        // ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.blue,
